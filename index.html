@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>🎂 عيد ميلاد سعيد!</title>
+<style>
+    body {
+        background: linear-gradient(to right, #ff9a9e, #fad0c4);
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding-top: 100px;
+    }
+    h1 {
+        font-size: 48px;
+        color: #fff;
+    }
+    p {
+        font-size: 22px;
+        color: #fff;
+    }
+    #btn {
+        font-size: 18px;
+        padding: 12px 25px;
+        background: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    #msg {
+        margin-top: 30px;
+        font-size: 24px;
+        color: #fff;
+    }
+</style>
+</head>
+<body>
+
+<h1>عيد ميلاد سعيد يا حبيبتي 🎉</h1>
+<p>اضغطي الزر لتشوفي المفاجأة!</p>
+
+<button id="btn" onclick="showMsg()">شوف المفاجأة</button>
+
+<p id="msg"></p>
+
+<script>
+function showMsg() {
+    document.getElementById("msg").innerHTML = 
+    "وجودك في حياتي مش صدفة… وجودك هدية كل يوم.<br>" +
+    "كل سنة وانتي النور اللي يملأ أيامي، والضحكة اللي تفرح قلبي.<br>" +
+    "اليوم عيد ميلادك، وأنا عايزك تعرفي قدّاش تهميني.<br>" +
+    "كل سنة وانتي أحلى حب، وأجمل صديقة، وأرق إنسانة عرفتها ❤️";
+}
+</script>
+
+</body>
+</html>
